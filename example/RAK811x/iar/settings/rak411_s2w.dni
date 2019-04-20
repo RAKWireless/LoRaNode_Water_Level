@@ -1,0 +1,217 @@
+[Stack]
+FillEnabled=0
+OverflowWarningsEnabled=1
+WarningThreshold=90
+SpWarningsEnabled=0
+WarnLogOnly=1
+UseTrigger=1
+TriggerName=main
+LimitSize=0
+ByteLimit=50
+[Exceptions]
+StopOnUncaught=_ 0
+StopOnThrow=_ 0
+[SWOTraceHWSettings]
+OverrideDefaultClocks=0
+CpuClock=72000000
+ClockAutoDetect=0
+ClockWanted=2000000
+JtagSpeed=2000000
+Prescaler=36
+TimeStampPrescIndex=0
+TimeStampPrescData=0
+PcSampCYCTAP=1
+PcSampPOSTCNT=15
+PcSampIndex=0
+DataLogMode=0
+ITMportsEnable=0
+ITMportsTermIO=0
+ITMportsLogFile=0
+ITMlogFile=$PROJ_DIR$\ITM.log
+[DebugChecksum]
+<<<<<<< .mine
+Checksum=544884812
+=======
+Checksum=-2030085737
+>>>>>>> .r1016
+[CallStack]
+ShowArgs=0
+[Disassembly]
+MixedMode=0
+[Breakpoints]
+Bp0=_ "STD_CODE" "{$PROJ_DIR$\..\src\app\custom\web_server.c}.597.14" 1 0 0 0 "" 0 ""
+Bp1=_ "STD_CODE" "{$PROJ_DIR$\..\src\app\custom\app_task_one.c}.1031.5" 1 0 0 0 "" 0 ""
+Count=2
+[JLinkDriver]
+WatchCond=_ 0
+Watch0=_ 0 "" 0 "" 0 "" 0 "" 0 0 0 0
+Watch1=_ 0 "" 0 "" 0 "" 0 "" 0 0 0 0
+CStepIntDis=_ 0
+[Interrupts]
+Enabled=1
+[MemoryMap]
+Enabled=0
+Base=0
+UseAuto=0
+TypeViolation=1
+UnspecRange=1
+ActionState=1
+[RecentFlashDownload]
+Path=E:\rak_product\boards\RAK4XX_BOOT\IAR\Debug\Exe\Nano_Bootloader.out
+[CodeCoverage]
+Enabled=_ 0
+[struct_types]
+Fmt0=ATH_REGQUERY-address	4	0
+Fmt1=ATH_REGQUERY-mask	4	0
+Fmt2=ATH_REGQUERY-size	4	0
+Fmt3=ATH_REGQUERY-value	4	0
+Fmt4=SOCKADDR_T-sin_addr	4	0
+Fmt5=SOCKADDR_T-sin_family	4	0
+Fmt6=SOCKADDR_T-sin_port	3	0
+Fmt7=STR_UART_T-u32BaudRate	3	0
+Fmt8=STR_UART_T-u32cDataBits	4	0
+Fmt9=STR_UART_T-u32cParity	4	0
+Fmt10=STR_UART_T-u32cRxTriggerLevel	4	0
+Fmt11=STR_UART_T-u32cStopBits	4	0
+Fmt12=ap_sta_cfg_t-enable	4	0
+Fmt13=fw_head_t-crc	4	0
+Fmt14=fw_head_t-cur_addr	4	0
+Fmt15=fw_head_t-total_size	4	0
+Fmt16=ip_param_t-addr	4	0
+Fmt17=ip_param_t-dnsrv1	4	0
+Fmt18=ip_param_t-gw	4	0
+Fmt19=ip_param_t-mask	4	0
+Fmt20=rak_cfg_t-channel	4	0
+Fmt21=rak_cfg_t-conn_multi	4	0
+Fmt22=rak_cfg_t-power_mode	4	0
+Fmt23=rak_cfg_t-recv_len	3	0
+Fmt24=rak_cfg_t-rts_cts	4	0
+Fmt25=rak_cfg_t-time_out	4	0
+Fmt26=rak_cfg_t-web_en	4	0
+Fmt27=rak_cfg_t-web_switch	5	0
+Fmt28=sock_info_t-sock_handle	4	0
+Fmt29=struct ath_socket_context-handle	4	0
+Fmt30=tcpip_info_t-local_port	3	0
+[array_types]
+Fmt0=CPU_STK[150]	4	0
+Fmt1=CPU_STK[200]	4	0
+Fmt2=uint32_t[13]	4	0
+Fmt3=uint32_t[2]	4	0
+[watch_formats]
+Fmt0={W}0:CheakAddr	4	0
+Fmt1={W}0:NumByteToRead	4	0
+Fmt2={W}0:NumByteToWrite	4	0
+Fmt3={W}0:ProParams.enable	1	0
+Fmt4={W}0:ProParams.status	1	0
+Fmt5={W}0:RakStoreConfig.ip_param.addr	4	0
+Fmt6={W}0:ReadAddr	4	0
+Fmt7={W}0:SectorAddr	4	0
+Fmt8={W}0:WriteAddr	4	0
+Fmt9={W}0:addr	4	0
+Fmt10={W}0:addr_base	4	0
+Fmt11={W}0:addr_offset	4	0
+Fmt12={W}0:addr_pos	4	0
+Fmt13={W}0:c	5	0
+Fmt14={W}0:config_enable	4	0
+Fmt15={W}0:counter1	3	0
+Fmt16={W}0:counter2	3	0
+Fmt17={W}0:cpu_clk_freq	4	0
+Fmt18={W}0:crc	4	0
+Fmt19={W}0:cur_size	4	0
+Fmt20={W}0:data.value	4	0
+Fmt21={W}0:dest_addr	4	0
+Fmt22={W}0:enable	4	0
+Fmt23={W}0:endaddr	4	0
+Fmt24={W}0:flash_offset	4	0
+Fmt25={W}0:head.cur_addr	4	0
+Fmt26={W}0:head.erase_addr	4	0
+Fmt27={W}0:param	4	0
+Fmt28={W}0:rak_var.config.ip_param.addr	4	0
+Fmt29={W}0:rak_var.config.ip_param.dnsrv1	4	0
+Fmt30={W}0:rak_var.config.ip_param.dnsrv2	4	0
+Fmt31={W}0:size	4	0
+Fmt32={W}0:socket_info[0].sock_handle	4	0
+Fmt33={W}0:socket_info[socket_num].sock_handle	4	0
+Fmt34={W}0:src_addr	4	0
+Fmt35={W}0:startaddr	4	0
+Fmt36={W}0:u32Configdata0	4	0
+Fmt37={W}0:u32Configdata1	4	0
+Fmt38={W}0:web_upgrade.fw_total_len	3	0
+Fmt39={W}1:ProParams.status	4	0
+[CallStackLog]
+Enabled=0
+[DriverProfiling]
+Enabled=0
+Mode=3
+Graph=0
+Symbiont=0
+Exclusions=
+[Trace2]
+Enabled=0
+ShowSource=0
+[SWOTraceWindow]
+PcSampling=0
+InterruptLogs=0
+ForcedTimeStamps=0
+EventCPI=0
+EventEXC=0
+EventFOLD=0
+EventLSU=0
+EventSLEEP=0
+[PowerLog]
+LogEnabled=0
+GraphEnabled=0
+ShowTimeLog=1
+ShowTimeSum=0
+Title_0=I0
+Symbol_0=0 4 1
+LiveEnabled=0
+LiveFile=PowerLogLive.log
+[DataLog]
+LogEnabled=0
+SumEnabled=0
+GraphEnabled=0
+ShowTimeLog=1
+ShowTimeSum=1
+[EventLog]
+LogEnabled=0
+SumEnabled=0
+GraphEnabled=0
+ShowTimeLog=1
+ShowTimeSum=1
+SumSortOrder=0
+[InterruptLog]
+LogEnabled=0
+SumEnabled=0
+GraphEnabled=0
+ShowTimeLog=1
+ShowTimeSum=1
+SumSortOrder=0
+[Disassemble mode]
+mode=0
+[Breakpoints2]
+Bp0=_ 1 "EMUL_CODE" "{$PROJ_DIR$\..\..\..\bsp_atheros_wifi\src\atheros_wifi\custom_src\api_interface\cust_api_wmi_rx.c}.252.9" 0 0 1 "" 0 "" 0
+Bp1=_ 1 "EMUL_CODE" "{$PROJ_DIR$\..\src\app\custom\app.c}.631.9" 0 0 1 "" 0 "" 0
+Count=2
+[Log file]
+LoggingEnabled=_ 0
+LogFile=_ ""
+Category=_ 0
+[TermIOLog]
+LoggingEnabled=_ 0
+LogFile=_ ""
+[Aliases]
+A0=_ "E:\energymicro\boards\RAK415_TRUNK\bsp_atheros_wifi\src\atheros_wifi\common_src\api_interface\api_ioctl.c" ""
+A1=_ "E:\energymicro\boards\RAK415_TRUNK\uCOS-III\Source\os_core.c" ""
+A2=_ "E:\energymicro\boards\RAK415_TRUNK\uCOS-III\Source\os_flag.c" ""
+A3=_ "E:\rak_product\boards\RAK415 - 副本\bsp_atheros_wifi\src\atheros_wifi\common_src\api_interface\api_wmi_rx.c" ""
+A4=_ "E:\rak_product\boards\RAK415 - 副本\bsp_atheros_wifi\src\atheros_wifi\common_src\htc\htc.c" ""
+A5=_ "E:\rak_product\boards\RAK415 - 副本\bsp_atheros_wifi\src\atheros_wifi\custom_src\driver\cust_driver_main.c" ""
+A6=_ "E:\rak_product\boards\RAK415\bsp_atheros_wifi\src\atheros_wifi\custom_src\driver\cust_driver_main.c" ""
+A7=_ "E:\rak_product\boards\RAK415_NOITOM - 副本\examples\config_tool\src\app\common\rak_api.c" ""
+Count=8
+SuppressDialog=0
+[PowerProbe]
+Frequency=10000
+Probe0=I0
+ProbeSetup0=2 1 1 2 0 0

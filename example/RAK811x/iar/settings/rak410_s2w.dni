@@ -1,0 +1,187 @@
+[Stack]
+FillEnabled=0
+OverflowWarningsEnabled=1
+WarningThreshold=90
+SpWarningsEnabled=1
+WarnLogOnly=1
+UseTrigger=1
+TriggerName=main
+LimitSize=0
+ByteLimit=50
+[DebugChecksum]
+Checksum=432009771
+[Exceptions]
+StopOnUncaught=_ 0
+StopOnThrow=_ 0
+[CallStack]
+ShowArgs=0
+[Disassembly]
+MixedMode=1
+[SWOTraceHWSettings]
+OverrideDefaultClocks=0
+CpuClock=72000000
+ClockAutoDetect=0
+ClockWanted=2000000
+JtagSpeed=2000000
+Prescaler=36
+TimeStampPrescIndex=0
+TimeStampPrescData=0
+PcSampCYCTAP=1
+PcSampPOSTCNT=15
+PcSampIndex=0
+DataLogMode=0
+ITMportsEnable=0
+ITMportsTermIO=0
+ITMportsLogFile=0
+ITMlogFile=$PROJ_DIR$\ITM.log
+[Interrupts]
+Enabled=1
+[MemoryMap]
+Enabled=0
+Base=0
+UseAuto=0
+TypeViolation=1
+UnspecRange=1
+ActionState=1
+[Trace1]
+Enabled=0
+ShowSource=1
+[RecentFlashDownload]
+Path=C:\Users\LEON\Desktop\RAK411 北京\NANO WIFI RAK411\flash_agent_nano.bin
+[Breakpoints]
+Bp0=_ "STD_CODE" "{$PROJ_DIR$\..\..\..\bsp_atheros_wifi\src\atheros_wifi\custom_src\api_interface\cust_api_isr.c}.139.5" 0 0 0 0 "" 0 ""
+Bp1=_ "STD_CODE" "{$PROJ_DIR$\..\src\app\app.c}.160.4" 0 0 0 0 "" 0 ""
+Bp2=_ "STD_CODE" "{$PROJ_DIR$\..\..\..\bsp_atheros_wifi\src\atheros_wifi\common_src\driver\driver_init.c}.276.9" 1 0 0 0 "" 0 ""
+Bp3=_ "STD_CODE" "{$PROJ_DIR$\..\src\app\app.c}.148.4" 0 0 0 0 "" 0 ""
+Bp4=_ "STD_CODE" "{$PROJ_DIR$\..\src\app\app.c}.168.4" 0 0 0 0 "" 0 ""
+Count=5
+[struct_types]
+Fmt0=SOCKADDR_T-sin_addr	4	0
+Fmt1=STR_UART_T-u32BaudRate	4	0
+Fmt2=STR_UART_T-u32cDataBits	4	0
+Fmt3=STR_UART_T-u32cParity	4	0
+Fmt4=STR_UART_T-u32cRxTriggerLevel	4	0
+Fmt5=STR_UART_T-u32cStopBits	4	0
+Fmt6=net_param_t-addr	4	0
+Fmt7=net_param_t-dnsrv1	4	0
+Fmt8=net_param_t-dnsrv2	4	0
+Fmt9=net_param_t-gw	4	0
+Fmt10=net_param_t-mask	4	0
+Fmt11=sock_info_t-sock_handle_store	4	0
+Fmt12=store_config_t-store_flag	4	0
+[array_types]
+Fmt0=CPU_INT08U[32]	4	0
+[watch_formats]
+Fmt0={W}0:addr_base	4	0
+Fmt1={W}0:dns_store	4	0
+Fmt2={W}0:endaddr	4	0
+Fmt3={W}0:flags	4	0
+Fmt4={W}0:offset_address	4	0
+Fmt5={W}0:test_tmp	3	0
+Fmt6={W}0:test_tmp1	3	0
+Fmt7={W}0:test_tmp2	3	0
+Fmt8={W}0:u32_temp	5	0
+Fmt9={W}0:userPtr	4	0
+[CallStackLog]
+Enabled=0
+[DriverProfiling]
+Enabled=0
+Mode=3
+Graph=0
+Symbiont=0
+Exclusions=
+[PowerLog]
+LogEnabled=0
+GraphEnabled=0
+ShowTimeLog=1
+ShowTimeSum=0
+Title0=I0
+Setup0=0 1 0 500 2 0 4 0 0
+LiveEnabled=0
+LiveFile=PowerLogLive.log
+[DataLog]
+LogEnabled=0
+SumEnabled=0
+GraphEnabled=0
+ShowTimeLog=1
+ShowTimeSum=1
+Title0=I0
+Setup0=0 1 0 500 2 0 4 0 0
+[EventLog]
+LogEnabled=0
+SumEnabled=0
+GraphEnabled=0
+ShowTimeLog=1
+ShowTimeSum=1
+Title0=ITM1
+Setup0=1 1 1 1
+Title1=ITM2
+Setup1=1 1 1 1
+Title2=ITM3
+Setup2=1 1 1 1
+Title3=ITM4
+Setup3=1 1 1 1
+SumSortOrder=0
+[InterruptLog]
+LogEnabled=0
+SumEnabled=0
+GraphEnabled=0
+ShowTimeLog=1
+ShowTimeSum=1
+SumSortOrder=0
+[Log file]
+LoggingEnabled=_ 0
+LogFile=_ ""
+Category=_ 0
+[TermIOLog]
+LoggingEnabled=_ 0
+LogFile=_ ""
+[Trace2]
+Enabled=0
+[SWOTraceWindow]
+PcSampling=0
+InterruptLogs=0
+ForcedTimeStamps=0
+EventCPI=0
+EventEXC=0
+EventFOLD=0
+EventLSU=0
+EventSLEEP=0
+[PowerProbe]
+Frequency=10000
+Probe0=I0
+ProbeSetup0=2 1 1 2 0 0
+[Disassemble mode]
+mode=0
+[Breakpoints2]
+Bp0=_ 1 "EMUL_CODE" "{$PROJ_DIR$\..\src\app\custom\app.c}.612.5" 0 0 1 "" 0 "" 0
+Count=1
+[Aliases]
+A0=_ "C:\Users\Administrator\AppData\Roaming\energymicro\Nuvoton\NANO100B_Series_CMSIS_BSP_EN_Rev1.00.005\Libraries\CMSIS\Include\core_cm0.h" ""
+A1=_ "C:\Users\Administrator\AppData\Roaming\energymicro\Nuvoton\NANO100B_Series_CMSIS_BSP_EN_Rev1.00.005\Libraries\NANO1xx_Drivers\Include\nano1xx_sys.h" ""
+A2=_ "C:\Users\Administrator\AppData\Roaming\energymicro\boards\nu_rak_s2w_1.0.1\examples\config_tool\src\app\app.c" ""
+A3=_ "C:\Users\Administrator\AppData\Roaming\energymicro\boards\nu_rak_s2w_1.0.1\examples\config_tool\src\app\driver_plugin\atheros_wifi_mediactl_ext.c" ""
+A4=_ "C:\Users\Administrator\AppData\Roaming\energymicro\boards\nu_rak_s2w_1.0.1\examples\config_tool\src\bsp\bsp-Uart.c" ""
+A5=_ "C:\Users\Administrator\AppData\Roaming\energymicro\boards\nu_rak_s2w_1.0.1\examples\config_tool\src\bsp\iarread.c" ""
+A6=_ "C:\Users\Administrator\AppData\Roaming\energymicro\boards\nu_rak_s2w_1.0.1\uC-CPU\ARM-Cortex-M0\IAR\cpu_a.asm" ""
+A7=_ "C:\Users\Administrator\AppData\Roaming\energymicro\boards\nu_rak_s2w_1.0.1\uCOS-III\Ports\ARM-Cortex-M0\Generic\IAR\os_cpu_a.asm" ""
+A8=_ "C:\Users\Administrator\AppData\Roaming\energymicro\boards\nu_rak_s2w_1.0.1\uCOS-III\Ports\ARM-Cortex-M0\Generic\IAR\os_cpu_c.c" ""
+A9=_ "C:\Users\Administrator\AppData\Roaming\energymicro\boards\nu_rak_s2w_1.0.1\uCOS-III\Source\os_core.c" ""
+A10=_ "C:\Users\LEON\Desktop\RAK411 北京\NANO WIFI RAK411\Nuvoton\NANO100B_Series_CMSIS_BSP_EN_Rev1.00.005\Libraries\CMSIS\Include\core_cm0.h" ""
+A11=_ "C:\Users\LEON\Desktop\RAK411 北京\NANO WIFI RAK411\Nuvoton\NANO100B_Series_CMSIS_BSP_EN_Rev1.00.005\Libraries\NANO1xx_Drivers\Source\nano1xx_gpio.c" ""
+A12=_ "C:\Users\LEON\Desktop\RAK411 北京\NANO WIFI RAK411\Nuvoton\NANO100B_Series_CMSIS_BSP_EN_Rev1.00.005\Libraries\NANO1xx_Drivers\Source\nano1xx_timer.c" ""
+A13=_ "C:\Users\LEON\Desktop\RAK411 北京\NANO WIFI RAK411\boards\nu_rak_s2w_1.0.1_fu_ - 921600通过\uCOS-III\Source\os_core.c" ""
+A14=_ "C:\Users\LEON\Desktop\RAK411 北京\NANO WIFI RAK411\boards\nu_rak_s2w_1.0.1_fu_ - 921600通过\uCOS-III\Source\os_flag.c" ""
+A15=_ "C:\Users\LEON\Desktop\RAK411 北京\NANO WIFI RAK411\boards\nu_rak_s2w_1.0.1_fu_ - 921600通过\uCOS-III\Source\os_prio.c" ""
+A16=_ "D:\汤\临时资料\RAK411 北京\NANO WIFI RAK411\boards\RAK411_AP_Nano  0717  0919\examples\config_tool\src\app\custom\app.c" ""
+A17=_ "D:\新唐\NANO100BSeriesBSP_CMSIS_V1.00.003\NANO100BSeriesBSP_CMSIS_V1.00.003\boards\nu_rak_s2w_1.0.1_fu\examples\config_tool\src\bsp\iarwrite.c" ""
+A18=_ "D:\新唐\NANO100BSeriesBSP_CMSIS_V1.00.003\NANO100BSeriesBSP_CMSIS_V1.00.003\boards\复件 nu_rak_s2w_1.0_原始\uCOS-III\Source\os_core.c" ""
+A19=_ "E:\临时资料\RAK411 北京\NANO WIFI RAK411\boards\RAK411_APP_V1.0.0  0712\examples\config_tool\src\app\custom\app.c" ""
+A20=_ "E:\临时资料\RAK411 北京\NANO WIFI RAK411\boards\RAK411_AP_Nano  0719  1119\examples\config_tool\src\app\custom\app.c" ""
+A21=_ "E:\临时资料\RAK411 北京\NANO WIFI RAK411\boards\RAK411_AP_Nano  0730  0919\examples\config_tool\src\bsp\bsp.c" ""
+A22=_ "E:\临时资料\RAK411 北京\NANO WIFI RAK411\boards\RAK411_AP_Nano  0730  0919\uCOS-III\Source\os_flag.c" ""
+A23=_ "E:\临时资料\RAK411 北京\NANO WIFI RAK411\boards\RAK411_AP_Nano  0805  1540\examples\config_tool\src\app\custom\app.c" ""
+A24=_ "E:\临时资料\RAK411 北京\NANO WIFI RAK411\boards\nu_rak_s2w_1.0.1_fu_ - 921600通过 透传等代码整合 0701\examples\config_tool\src\app\custom\app.c" ""
+A25=_ "E:\临时资料\RAK411 北京\NANO WIFI RAK411\boards\nu_rak_s2w_1.0.1_fu_ - 921600通过 透传移植未测试\bsp_atheros_wifi\src\atheros_wifi\custom_src\api_interface\cust_api_init.c" ""
+Count=26
+SuppressDialog=1

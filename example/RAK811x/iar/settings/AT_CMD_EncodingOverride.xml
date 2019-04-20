@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<userOverrides>
+  <override>
+    <path>E:\rakwireless_work\work_project\LoraWAN\lora\RAK811_GPS_Demokit_LoraWAN\example\RAK811x\app\lis3dh_drive.c</path>
+    <encoding>System</encoding>
+  </override>
+</userOverrides>
+
+

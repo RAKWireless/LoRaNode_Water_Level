@@ -1,0 +1,2621 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+    <fileVersion>4</fileVersion>
+    <fileChecksum>3564392076</fileChecksum>
+    <configuration>
+        <name>Debug</name>
+        <outputs>
+            <file>$PROJ_DIR$\..\..\..\platform\STM32\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_flash.c</file>
+            <file>$PROJ_DIR$\..\..\..\platform\STM32\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_opamp.c</file>
+            <file>$PROJ_DIR$\..\..\..\common\JSON\cJSON.c</file>
+            <file>$PROJ_DIR$\..\..\..\hal\cmsis\arm-iar\startup_stm32l151xb.s</file>
+            <file>$PROJ_DIR$\..\..\..\platform\STM32\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_adc_ex.c</file>
+            <file>$PROJ_DIR$\..\..\..\platform\STM32\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_cryp_ex.c</file>
+            <file>$PROJ_DIR$\..\..\..\platform\STM32\STM32L1xx_HAL_Driver\Src\test.c</file>
+            <file>$PROJ_DIR$\..\..\..\platform\STM32\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal.c</file>
+            <file>$PROJ_DIR$\..\..\..\platform\STM32\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_comp.c</file>
+            <file>$PROJ_DIR$\..\..\..\platform\STM32\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_dac_ex.c</file>
+            <file>$PROJ_DIR$\..\..\..\platform\STM32\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_flash_ex.c</file>
+            <file>$PROJ_DIR$\..\..\..\LoRaWAN\system\crypto\cmac.c</file>
+            <file>$PROJ_DIR$\..\..\..\platform\STM32\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_dma.c</file>
+            <file>$PROJ_DIR$\..\..\..\hal\cmsis\system_stm32l1xx.c</file>
+            <file>$PROJ_DIR$\..\..\..\platform\STM32\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_irda.c</file>
+            <file>$PROJ_DIR$\..\..\..\platform\STM32\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_iwdg.c</file>
+            <file>$PROJ_DIR$\..\..\..\LoRaWAN\system\crypto\aes.c</file>
+            <file>$PROJ_DIR$\..\..\..\platform\STM32\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_cortex.c</file>
+            <file>$PROJ_DIR$\..\..\..\platform\STM32\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_crc.c</file>
+            <file>$PROJ_DIR$\..\app\test_pwr.c</file>
+            <file>$PROJ_DIR$\..\..\..\platform\STM32\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_adc.c</file>
+            <file>$PROJ_DIR$\..\..\..\platform\STM32\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_dac.c</file>
+            <file>$PROJ_DIR$\..\..\..\platform\STM32\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_gpio.c</file>
+            <file>$PROJ_DIR$\..\..\..\platform\STM32\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_i2c.c</file>
+            <file>$PROJ_DIR$\..\..\..\platform\STM32\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_i2s.c</file>
+            <file>$PROJ_DIR$\..\app\rw_lora.c</file>
+            <file>$PROJ_DIR$\..\..\..\platform\STM32\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_msp_template.c</file>
+            <file>$PROJ_DIR$\..\..\..\platform\STM32\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_flash_ramfunc.c</file>
+            <file>$PROJ_DIR$\..\..\..\platform\STM32\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_lcd.c</file>
+            <file>$PROJ_DIR$\..\..\..\platform\STM32\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_cryp.c</file>
+            <file>$PROJ_DIR$\..\..\..\platform\STM32\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_nor.c</file>
+            <file>$PROJ_DIR$\..\app\test_rtc.c</file>
+            <file>$PROJ_DIR$\..\app\at_cmd.c</file>
+            <file>$PROJ_DIR$\..\..\..\common\iarwrite.c</file>
+            <file>$PROJ_DIR$\..\app\lora_config.c</file>
+            <file>$PROJ_DIR$\..\app\app.c</file>
+            <file>$PROJ_DIR$\..\app\app.h</file>
+            <file>$PROJ_DIR$\..\app\partition.c</file>
+            <file>$PROJ_DIR$\..\app\rw_assert.c</file>
+            <file>$PROJ_DIR$\..\app\lora_event.c</file>
+            <file>$PROJ_DIR$\..\..\..\platform\STM32\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_tim.c</file>
+            <file>$PROJ_DIR$\..\..\..\LoRaWAN\system\fifo.c</file>
+            <file>$PROJ_DIR$\..\..\..\hal\gpio-board.c</file>
+            <file>$PROJ_DIR$\..\..\..\platform\STM32\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_smartcard.c</file>
+            <file>$PROJ_DIR$\..\..\..\hal\gps-board.c</file>
+            <file>$PROJ_DIR$\..\..\..\platform\STM32\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_rtc.c</file>
+            <file>$PROJ_DIR$\..\..\..\platform\STM32\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_usart.c</file>
+            <file>$PROJ_DIR$\..\..\..\platform\STM32\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_pcd.c</file>
+            <file>$PROJ_DIR$\..\..\..\hal\board.c</file>
+            <file>$PROJ_DIR$\..\..\..\platform\STM32\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_pwr.c</file>
+            <file>$PROJ_DIR$\..\..\..\hal\adc-board.c</file>
+            <file>$PROJ_DIR$\..\..\..\hal\spi-board.c</file>
+            <file>$PROJ_DIR$\..\..\..\platform\STM32\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_uart.c</file>
+            <file>$PROJ_DIR$\..\..\..\platform\STM32\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_wwdg.c</file>
+            <file>$PROJ_DIR$\..\..\..\hal\i2c-board.c</file>
+            <file>$PROJ_DIR$\..\..\..\platform\STM32\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_pwr_ex.c</file>
+            <file>$PROJ_DIR$\..\..\..\platform\STM32\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_spi.c</file>
+            <file>$PROJ_DIR$\..\..\..\platform\STM32\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_sram.c</file>
+            <file>$PROJ_DIR$\..\..\..\hal\rtc-board.c</file>
+            <file>$PROJ_DIR$\..\..\..\hal\sx127X-board.c</file>
+            <file>$PROJ_DIR$\..\..\..\LoRaWAN\mac\region\Region.c</file>
+            <file>$PROJ_DIR$\..\..\..\platform\STM32\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_rtc_ex.c</file>
+            <file>$PROJ_DIR$\..\..\..\hal\uart-board.c</file>
+            <file>$PROJ_DIR$\..\..\..\platform\STM32\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_sd.c</file>
+            <file>$PROJ_DIR$\..\..\..\platform\STM32\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_pcd_ex.c</file>
+            <file>$PROJ_DIR$\..\..\..\platform\STM32\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_spi_ex.c</file>
+            <file>$PROJ_DIR$\..\..\..\platform\STM32\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_tim_ex.c</file>
+            <file>$PROJ_DIR$\..\..\..\platform\STM32\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_rcc_ex.c</file>
+            <file>$PROJ_DIR$\..\..\..\platform\STM32\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_opamp_ex.c</file>
+            <file>$PROJ_DIR$\..\..\..\platform\STM32\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_rcc.c</file>
+            <file>$PROJ_DIR$\..\..\..\LoRaWAN\mac\region\RegionCommon.c</file>
+            <file>$PROJ_DIR$\..\..\..\LoRaWAN\mac\region\RegionAU915.c</file>
+            <file>$PROJ_DIR$\..\..\..\LoRaWAN\mac\region\RegionCN470.c</file>
+            <file>$PROJ_DIR$\..\..\..\LoRaWAN\mac\region\RegionCN779.c</file>
+            <file>$PROJ_DIR$\..\..\..\LoRaWAN\mac\region\RegionUS915.c</file>
+            <file>$PROJ_DIR$\..\..\..\LoRaWAN\radio\sx127x.c</file>
+            <file>$PROJ_DIR$\..\..\..\LoRaWAN\system\adc.c</file>
+            <file>$PROJ_DIR$\..\..\..\LoRaWAN\system\delay.c</file>
+            <file>$PROJ_DIR$\..\..\..\LoRaWAN\system\gpio.c</file>
+            <file>$PROJ_DIR$\..\..\..\LoRaWAN\mac\region\Region.h</file>
+            <file>$PROJ_DIR$\..\..\..\LoRaWAN\mac\region\RegionKR920.c</file>
+            <file>$PROJ_DIR$\..\..\..\LoRaWAN\mac\LoRaMac.c</file>
+            <file>$PROJ_DIR$\..\..\..\LoRaWAN\mac\region\RegionEU868.c</file>
+            <file>$PROJ_DIR$\..\..\..\LoRaWAN\mac\region\RegionAS923.c</file>
+            <file>$PROJ_DIR$\..\..\..\LoRaWAN\mac\region\RegionEU433.c</file>
+            <file>$PROJ_DIR$\..\..\..\LoRaWAN\mac\region\RegionIN865.c</file>
+            <file>$PROJ_DIR$\..\..\..\LoRaWAN\mac\region\RegionUS915-Hybrid.c</file>
+            <file>$PROJ_DIR$\..\..\..\LoRaWAN\mac\LoRaMacCrypto.c</file>
+            <file>$PROJ_DIR$\..\..\..\LoRaWAN\system\i2c.c</file>
+            <file>$PROJ_DIR$\..\..\..\LoRaWAN\system\timer.c</file>
+            <file>$PROJ_DIR$\..\..\..\LoRaWAN\utils\utilities.c</file>
+            <file>$PROJ_DIR$\Debug\Obj\aes.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\system_stm32l1xx.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\cmac.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\cJSON.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm32l1xx_hal.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm32l1xx_hal_adc.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm32l1xx_hal_dac_ex.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm32l1xx_hal_dma.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm32l1xx_hal_flash.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm32l1xx_hal_cryp.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm32l1xx_hal_cryp_ex.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm32l1xx_hal_dac.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm32l1xx_hal_adc_ex.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm32l1xx_hal_comp.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm32l1xx_hal_cortex.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm32l1xx_hal_crc.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\rw_lora.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\Region.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\uart-board.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\app.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\at_cmd.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\sx127X-board.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\partition.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\lora_config.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\rw_assert.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\lora_event.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\RegionIN865.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\RegionCN779.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\RegionKR920.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\RegionCN470.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\timer.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm32l1xx_hal_wwdg.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\spi-board.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\RegionUS915.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\sx127X-board.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\RegionAU915.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\adc-board.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\adc.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\RegionCommon.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\gpio-board.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\uart-board.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\Region.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\RegionEU868.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\i2c.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\RegionAS923.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\RegionUS915-Hybrid.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\LoRaMac.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\LoRaMacCrypto.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\sx127x.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\delay.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\rtc-board.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\gpio.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\board.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm32l1xx_hal_usart.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\i2c-board.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\RegionEU433.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\fifo.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\gps-board.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm32l1xx_hal_flash_ramfunc.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\at_cmd.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm32l1xx_hal_comp.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm32l1xx_hal_irda.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\rw_lora.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\partition.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm32l1xx_hal_crc.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\cJSON.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm32l1xx_hal_dac.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm32l1xx_hal_gpio.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm32l1xx_hal_i2s.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm32l1xx_hal_i2c.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm32l1xx_hal_dac_ex.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\aes.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm32l1xx_hal_flash.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\system_stm32l1xx.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\utilities.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\app.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\startup_stm32l151xb.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\rw_assert.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm32l1xx_hal_adc.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm32l1xx_hal_adc_ex.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm32l1xx_hal_cortex.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm32l1xx_hal_cryp_ex.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm32l1xx_hal_dma.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\lora_event.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm32l1xx_hal_flash_ex.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm32l1xx_hal.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\cmac.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\lora_config.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm32l1xx_hal_cryp.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm32l1xx_hal_wwdg.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm32l1xx_hal_sd.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm32l1xx_hal_nor.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\adc-board.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm32l1xx_hal_pcd_ex.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\gpio-board.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\i2c-board.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm32l1xx_hal_msp_template.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm32l1xx_hal_spi_ex.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm32l1xx_hal_tim_ex.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm32l1xx_hal_opamp.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm32l1xx_hal_usart.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\board.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm32l1xx_hal_sram.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm32l1xx_hal_rcc.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\rtc-board.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\spi-board.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm32l1xx_hal_opamp_ex.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm32l1xx_hal_rcc_ex.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\gps-board.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm32l1xx_hal_iwdg.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm32l1xx_hal_lcd.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm32l1xx_hal_smartcard.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm32l1xx_hal_spi.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm32l1xx_hal_tim.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\fifo.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm32l1xx_hal_pwr.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm32l1xx_hal_rtc_ex.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm32l1xx_hal_rtc.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm32l1xx_hal_pcd.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm32l1xx_hal_pwr_ex.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm32l1xx_hal_uart.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm32l1xx_hal_rcc.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm32l1xx_hal_i2c.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm32l1xx_hal_rtc.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm32l1xx_hal_irda.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm32l1xx_hal_rtc_ex.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm32l1xx_hal_sd.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm32l1xx_hal_smartcard.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm32l1xx_hal_spi_ex.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm32l1xx_hal_sram.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm32l1xx_hal_lcd.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm32l1xx_hal_tim.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm32l1xx_hal_opamp_ex.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm32l1xx_hal_spi.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm32l1xx_hal_flash_ramfunc.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm32l1xx_hal_i2s.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm32l1xx_hal_iwdg.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm32l1xx_hal_tim_ex.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm32l1xx_hal_nor.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm32l1xx_hal_uart.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm32l1xx_hal_pwr.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm32l1xx_hal_rcc_ex.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm32l1xx_hal_pcd.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm32l1xx_hal_flash_ex.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm32l1xx_hal_msp_template.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm32l1xx_hal_pcd_ex.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm32l1xx_hal_gpio.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm32l1xx_hal_opamp.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm32l1xx_hal_pwr_ex.o</file>
+            <file>$PROJ_DIR$\..\app\Comissioning.h</file>
+            <file>$PROJ_DIR$\Debug\Exe\AT_CMD.out</file>
+            <file>$PROJ_DIR$\Debug\Obj\RegionAS923.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\RegionEU433.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\AT_CMD.pbd</file>
+            <file>$PROJ_DIR$\Debug\Exe\Waterlevel.bin</file>
+            <file>$PROJ_DIR$\Debug\Obj\LoRaMac.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\gpio.pbi</file>
+            <file>$PROJ_DIR$\..\..\..\hal\board.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\stdbool.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\stdlib.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Config_Full.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\yvals.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\RegionKR920.pbi</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Defaults.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\utilities.pbi</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Product.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\ycheck.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\sx127x.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\RegionCN779.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\RegionAU915.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\RegionIN865.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\RegionUS915.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\adc.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\i2c.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\RegionCN470.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\RegionCommon.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\RegionUS915-Hybrid.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\LoRaMacCrypto.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\RegionEU868.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\delay.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\timer.pbi</file>
+            <file>$PROJ_DIR$\..\..\..\platform\STM32\STM32L1xx_HAL_Driver\Inc\stm32l1xx_hal_gpio.h</file>
+            <file>$PROJ_DIR$\..\..\..\hal\cmsis\mxconstants.h</file>
+            <file>$PROJ_DIR$\..\..\..\platform\STM32\STM32L1xx_HAL_Driver\Inc\stm32l1xx_hal_gpio_ex.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\math.h</file>
+            <file>$PROJ_DIR$\..\..\..\hal\cmsis\stm32l1xx.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\stdio.h</file>
+            <file>$PROJ_DIR$\..\..\..\platform\STM32\STM32L1xx_HAL_Driver\Inc\stm32l1xx_hal_def.h</file>
+            <file>$PROJ_DIR$\..\..\..\platform\STM32\cmsis\core_cmInstr.h</file>
+            <file>$PROJ_DIR$\..\..\..\platform\STM32\cmsis\core_cmFunc.h</file>
+            <file>$PROJ_DIR$\..\..\..\platform\STM32\STM32L1xx_HAL_Driver\Inc\stm32l1xx_hal_rcc_ex.h</file>
+            <file>$PROJ_DIR$\..\..\..\platform\STM32\cmsis\core_cm3.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Product_stdlib.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Product_string.h</file>
+            <file>$PROJ_DIR$\..\..\..\hal\cmsis\stm32l1xx_hal_conf.h</file>
+            <file>$PROJ_DIR$\..\..\..\platform\STM32\STM32L1xx_HAL_Driver\Inc\stm32l1xx_hal_dma_ex.h</file>
+            <file>$PROJ_DIR$\..\..\..\platform\STM32\STM32L1xx_HAL_Driver\Inc\stm32l1xx_hal_adc.h</file>
+            <file>$PROJ_DIR$\..\..\..\platform\STM32\STM32L1xx_HAL_Driver\Inc\stm32l1xx_hal_adc_ex.h</file>
+            <file>$PROJ_DIR$\..\..\..\platform\STM32\STM32L1xx_HAL_Driver\Inc\stm32l1xx_hal_flash.h</file>
+            <file>$PROJ_DIR$\..\..\..\platform\STM32\STM32L1xx_HAL_Driver\Inc\stm32l1xx_hal_flash_ex.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\ysizet.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\stdint.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_float_setup.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\string.h</file>
+            <file>$PROJ_DIR$\..\..\..\hal\cmsis\stm32l151xb.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\cmsis_iar.h</file>
+            <file>$PROJ_DIR$\..\..\..\platform\STM32\STM32L1xx_HAL_Driver\Inc\stm32l1xx_hal_dma.h</file>
+            <file>$PROJ_DIR$\..\..\..\platform\STM32\STM32L1xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h</file>
+            <file>$PROJ_DIR$\..\..\..\platform\STM32\STM32L1xx_HAL_Driver\Inc\stm32l1xx_hal_cortex.h</file>
+            <file>$PROJ_DIR$\..\..\..\platform\STM32\STM32L1xx_HAL_Driver\Inc\stm32l1xx_hal_rcc.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\iccarm_builtin.h</file>
+            <file>$PROJ_DIR$\..\..\..\platform\STM32\STM32L1xx_HAL_Driver\Inc\stm32l1xx_hal.h</file>
+            <file>$PROJ_DIR$\..\..\..\hal\cmsis\system_stm32l1xx.h</file>
+            <file>$PROJ_DIR$\..\..\..\LoRaWAN\system\timer.h</file>
+            <file>$PROJ_DIR$\..\..\..\platform\STM32\STM32L1xx_HAL_Driver\Inc\stm32l1xx_hal_i2c.h</file>
+            <file>$PROJ_DIR$\..\..\..\LoRaWAN\system\delay.h</file>
+            <file>$PROJ_DIR$\..\..\..\platform\STM32\STM32L1xx_HAL_Driver\Inc\stm32l1xx_hal_pwr_ex.h</file>
+            <file>$PROJ_DIR$\..\..\..\LoRaWAN\system\gps.h</file>
+            <file>$PROJ_DIR$\..\..\..\hal\pinName-ioe.h</file>
+            <file>$PROJ_DIR$\..\..\..\LoRaWAN\system\adc.h</file>
+            <file>$PROJ_DIR$\..\..\..\hal\spi-board.h</file>
+            <file>$PROJ_DIR$\..\..\..\platform\STM32\STM32L1xx_HAL_Driver\Inc\stm32l1xx_hal_rtc.h</file>
+            <file>$PROJ_DIR$\..\..\..\platform\STM32\STM32L1xx_HAL_Driver\Inc\stm32l1xx_hal_pcd_ex.h</file>
+            <file>$PROJ_DIR$\..\..\..\platform\STM32\STM32L1xx_HAL_Driver\Inc\stm32l1xx_hal_flash_ramfunc.h</file>
+            <file>$PROJ_DIR$\..\..\..\hal\uart-board.h</file>
+            <file>$PROJ_DIR$\..\..\..\platform\STM32\STM32L1xx_HAL_Driver\Inc\stm32l1xx_hal_tim_ex.h</file>
+            <file>$PROJ_DIR$\..\..\..\LoRaWAN\system\i2c.h</file>
+            <file>$PROJ_DIR$\..\..\..\platform\STM32\STM32L1xx_HAL_Driver\Inc\stm32l1xx_hal_usart.h</file>
+            <file>$PROJ_DIR$\..\..\..\LoRaWAN\system\gpio.h</file>
+            <file>$PROJ_DIR$\..\..\..\LoRaWAN\radio\radio.h</file>
+            <file>$PROJ_DIR$\..\..\..\LoRaWAN\system\uart.h</file>
+            <file>$PROJ_DIR$\..\..\..\hal\gps-board.h</file>
+            <file>$PROJ_DIR$\..\..\..\LoRaWAN\radio\sx1276\sx1276.h</file>
+            <file>$PROJ_DIR$\..\..\..\platform\STM32\STM32L1xx_HAL_Driver\Inc\stm32l1xx_hal_rtc_ex.h</file>
+            <file>$PROJ_DIR$\..\..\..\platform\STM32\STM32L1xx_HAL_Driver\Inc\stm32l1xx_hal_spi.h</file>
+            <file>$PROJ_DIR$\..\..\..\platform\STM32\STM32L1xx_HAL_Driver\Inc\stm32l1xx_hal_spi_ex.h</file>
+            <file>$PROJ_DIR$\..\..\..\platform\STM32\STM32L1xx_HAL_Driver\Inc\stm32l1xx_hal_uart.h</file>
+            <file>$PROJ_DIR$\..\..\..\hal\pinName-board.h</file>
+            <file>$PROJ_DIR$\..\..\..\platform\STM32\STM32L1xx_HAL_Driver\Inc\stm32l1xx_hal_pcd.h</file>
+            <file>$PROJ_DIR$\..\..\..\LoRaWAN\utils\utilities.h</file>
+            <file>$PROJ_DIR$\..\..\..\platform\STM32\STM32L1xx_HAL_Driver\Inc\stm32l1xx_hal_pwr.h</file>
+            <file>$PROJ_DIR$\..\..\..\LoRaWAN\system\spi.h</file>
+            <file>$PROJ_DIR$\..\..\..\LoRaWAN\system\fifo.h</file>
+            <file>$PROJ_DIR$\..\..\..\LoRaWAN\radio\sx1276\sx1276Regs-Fsk.h</file>
+            <file>$PROJ_DIR$\..\..\..\platform\STM32\STM32L1xx_HAL_Driver\Inc\stm32l1xx_hal_tim.h</file>
+            <file>$PROJ_DIR$\..\..\..\LoRaWAN\mac\LoRaMacTest.h</file>
+            <file>$PROJ_DIR$\..\app\log.h</file>
+            <file>$PROJ_DIR$\..\..\..\LoRaWAN\system\crypto\aes.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\time.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\time32.h</file>
+            <file>$PROJ_DIR$\..\app\rw_lora.h</file>
+            <file>$PROJ_DIR$\..\app\rw_sys.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\float.h</file>
+            <file>$PROJ_DIR$\..\app\lora_config.h</file>
+            <file>$PROJ_DIR$\..\..\..\LoRaWAN\radio\sx1276\sx1276Regs-LoRa.h</file>
+            <file>$PROJ_DIR$\..\..\..\hal\rtc-board.h</file>
+            <file>$PROJ_DIR$\..\..\..\hal\adc-board.h</file>
+            <file>$PROJ_DIR$\..\app\partition.h</file>
+            <file>$PROJ_DIR$\..\..\..\LoRaWAN\mac\LoRaMac.h</file>
+            <file>$PROJ_DIR$\..\app\pins_conf.h</file>
+            <file>$PROJ_DIR$\..\..\..\hal\sx1276-board.h</file>
+            <file>$PROJ_DIR$\..\app\cmd_error.h</file>
+            <file>$PROJ_DIR$\..\..\..\LoRaWAN\system\crypto\cmac.h</file>
+            <file>$PROJ_DIR$\..\app\lis3dh_driver.h</file>
+            <file>$PROJ_DIR$\..\app\rw_assert.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\ctype.h</file>
+            <file>$PROJ_DIR$\..\..\..\common\JSON\cJSON.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\limits.h</file>
+        </outputs>
+        <file>
+            <name>[ROOT_NODE]</name>
+            <outputs>
+                <tool>
+                    <name>ILINK</name>
+                    <file> 241</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\platform\STM32\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_flash.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 99</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 163</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\platform\STM32\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_opamp.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 238</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 190</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\common\JSON\cJSON.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 94</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 156</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 252 291 293 343 254 251 275 356 256 257 277 250 358 357 284 283 294</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\hal\cmsis\arm-iar\startup_stm32l151xb.s</name>
+            <outputs>
+                <tool>
+                    <name>AARM</name>
+                    <file> 167</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\platform\STM32\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_adc_ex.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 103</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 170</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 276 300 312 287 318 281 291 290 278 297 305 335 303 313 272 299 289 331 325 327 329 277 295 279 274 307 326 285 273 298 282 292 252 296 257 302 280 254 251 256 301 286 288 314 324 316</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\platform\STM32\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_cryp_ex.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 101</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 172</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 298 291 290 278 292 313 285 273 282 279 274 307 326 300 272 297 299 287 289 305 331 312 325 335 327 318 329 281 276 277 295 303 252 296 257 302 280 254 251 256 301 286 288 314 324 316</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\platform\STM32\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 95</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 176</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 273 285 282 291 290 278 313 298 292 279 274 307 326 300 272 297 299 287 289 305 331 312 325 335 327 318 329 281 276 277 295 303 252 296 257 302 280 254 251 256 301 286 288 314 324 316</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\platform\STM32\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_comp.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 104</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 151</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 298 291 290 278 292 313 285 273 282 279 274 307 326 300 272 297 299 287 289 305 331 312 325 335 327 318 329 281 276 277 295 303 252 296 257 302 280 254 251 256 301 286 288 314 324 316</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\platform\STM32\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_dac_ex.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 97</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 161</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\platform\STM32\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_flash_ex.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 234</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 175</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\LoRaWAN\system\crypto\cmac.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 93</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 177</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 257 353 338 330 252 254 251 256 292</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\platform\STM32\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_dma.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 98</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 173</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\hal\cmsis\system_stm32l1xx.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 92</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 164</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 295 303 279 251 282 292 257 256 252 296 276 280 254 301</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\platform\STM32\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_irda.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 215</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 152</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\platform\STM32\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_iwdg.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 227</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 200</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\LoRaWAN\system\crypto\aes.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 91</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 162</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 283 256 338 252 292 257 291 254 251 250</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\platform\STM32\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_cortex.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 105</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 171</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 272 277 325 289 329 291 290 278 299 331 327 295 313 300 297 287 305 312 335 318 281 276 303 279 274 307 326 285 273 298 282 292 252 296 257 302 280 254 251 256 301 286 288 314 324 316</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\platform\STM32\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_crc.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 106</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 155</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 298 291 290 278 292 313 285 273 282 279 274 307 326 300 272 297 299 287 289 305 331 312 325 335 327 318 329 281 276 277 295 303 252 296 257 302 280 254 251 256 301 286 288 314 324 316</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\platform\STM32\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_adc.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 96</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 169</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 291 290 278 285 273 295 313 277 279 274 307 326 300 272 297 299 287 289 305 331 312 325 335 327 318 329 281 276 303 252 296 257 302 298 282 292 280 254 251 256 301 286 288 314 324 316</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\platform\STM32\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_dac.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 102</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 157</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\platform\STM32\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_gpio.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 237</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 158</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\platform\STM32\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_i2c.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 213</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 160</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\platform\STM32\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_i2s.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 226</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 159</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\app\rw_lora.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 107</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 153</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 273 291 280 337 332 292 347 257 252 282 278 341 249 304 308 256 286 288 311 334 240 277 302 319 321 315 351 254 251 284 285 298 296 314 349 36 79 336 250 294 275 330 306 310 317 320 322 323 346 354 283 293 300 272 297 299 287 289 305 331 312 325 335 327 318 329 281 276 295 303 279 301 324 316 309 333 344 355 248 274 290 307 326 313 328 345 348 352 350</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\platform\STM32\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_msp_template.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 235</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 187</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\platform\STM32\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_flash_ramfunc.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 225</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 149</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\platform\STM32\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_lcd.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 221</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 201</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\platform\STM32\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_cryp.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 100</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 179</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 298 291 290 278 292 313 285 273 282 279 274 307 326 300 272 297 299 287 289 305 331 312 325 335 327 318 329 281 276 277 295 303 252 296 257 302 280 254 251 256 301 286 288 314 324 316</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\platform\STM32\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_nor.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 229</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 182</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\app\at_cmd.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 111</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 150</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 288 354 257 331 278 249 330 311 334 320 283 299 327 295 286 341 294 310 323 252 272 289 325 329 277 292 337 349 250 275 306 317 322 346 36 291 293 300 297 287 305 312 335 318 281 276 303 280 314 342 302 304 319 332 321 308 315 347 351 254 251 256 284 285 273 298 282 296 324 316 309 333 344 355 248 279 301 274 290 307 326 313 328 345 79 348 352 350</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\app\lora_config.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 114</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 178</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 284 332 337 292 347 257 285 278 249 304 308 298 286 288 311 334 248 252 291 277 302 319 321 315 351 273 282 280 314 349 294 36 254 251 256 250 275 330 306 310 317 320 322 323 346 354 283 293 300 272 297 299 287 289 305 331 312 325 335 327 318 329 281 276 295 303 296 324 316 309 333 344 355 279 301 274 290 307 326 313 328 345 79 348 352 350</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\app\app.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 110</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 166</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 252 275 282 346 286 317 273 280 288 278 311 249 334 341 254 251 250 306 322 36 257 292 337 248 256 294 330 310 320 323 354 283 291 285 298 296 314 349 340 284 277 302 304 319 332 321 308 315 347 351 293 300 272 297 299 287 289 305 331 312 325 335 327 318 329 281 276 295 303 279 301 324 316 309 333 344 355 339 274 290 307 326 313 328 345 79 348 352 350</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\app\partition.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 113</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 154</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 292 293 329 257 347 352 332 289 348 284 277 282 280 291 79 249 304 308 337 272 325 278 333 252 314 276 296 248 350 302 319 321 315 351 299 331 327 286 288 309 294 330 36 254 251 256 290 298 295 303 279 301 349 344 355 250 275 306 310 317 320 322 323 346 354 283 285 300 297 287 305 312 335 318 281 324 316 311 334 273 274 307 326 313 328 345</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\app\rw_assert.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 115</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 168</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 278 256 249 332 252 292 347 313 350 304 308 337 257 291 273 282 280 290 248 277 302 319 321 315 351 254 251 284 285 298 296 274 307 326 348 355 250 294 275 330 306 310 317 320 322 323 346 354 36 283 293 300 272 297 299 287 289 305 331 312 325 335 327 318 329 281 276 295 303 279 301 328 345 79 352 286 288 314 324 316 309 311 333 334 349 344</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\app\lora_event.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 116</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 174</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\platform\STM32\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_tim.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 222</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 204</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\LoRaWAN\system\fifo.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 147</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 205</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\hal\gpio-board.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 130</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 185</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\platform\STM32\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_smartcard.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 218</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 202</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\hal\gps-board.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 148</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 199</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\platform\STM32\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_rtc.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 214</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 208</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\platform\STM32\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_usart.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 144</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 191</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\platform\STM32\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_pcd.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 233</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 209</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\hal\board.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 143</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 192</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\platform\STM32\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_pwr.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 231</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 206</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\hal\adc-board.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 127</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 183</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\hal\spi-board.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 123</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 196</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\platform\STM32\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_uart.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 230</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 211</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\platform\STM32\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_wwdg.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 122</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 180</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\hal\i2c-board.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 145</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 186</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\platform\STM32\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_pwr_ex.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 239</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 210</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\platform\STM32\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_spi.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 224</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 203</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\platform\STM32\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_sram.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 220</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 193</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\hal\rtc-board.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 141</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 195</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\hal\sx127X-board.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 125</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 112</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\LoRaWAN\mac\region\Region.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 132</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 108</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\platform\STM32\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_rtc_ex.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 216</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 207</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\hal\uart-board.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 131</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 109</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\platform\STM32\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_sd.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 217</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 181</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\platform\STM32\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_pcd_ex.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 236</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 184</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\platform\STM32\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_spi_ex.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 219</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 188</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\platform\STM32\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_tim_ex.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 228</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 189</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\platform\STM32\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_rcc_ex.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 232</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 198</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\platform\STM32\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_opamp_ex.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 223</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 197</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\platform\STM32\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_rcc.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 212</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 194</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\LoRaWAN\mac\region\RegionCommon.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 129</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 266</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\LoRaWAN\mac\region\RegionAU915.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 126</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 260</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\LoRaWAN\mac\region\RegionCN470.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 120</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 265</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\LoRaWAN\mac\region\RegionCN779.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 118</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 259</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\LoRaWAN\mac\region\RegionUS915.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 124</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 262</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\LoRaWAN\radio\sx127x.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 139</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 258</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\LoRaWAN\system\adc.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 128</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 263</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\LoRaWAN\system\delay.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 140</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 270</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\LoRaWAN\system\gpio.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 142</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 247</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\LoRaWAN\mac\region\RegionKR920.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 119</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 253</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\LoRaWAN\mac\LoRaMac.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 137</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 246</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\LoRaWAN\mac\region\RegionEU868.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 133</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 269</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\LoRaWAN\mac\region\RegionAS923.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 135</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 242</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\LoRaWAN\mac\region\RegionEU433.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 146</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 243</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\LoRaWAN\mac\region\RegionIN865.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 117</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 261</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\LoRaWAN\mac\region\RegionUS915-Hybrid.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 136</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 267</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\LoRaWAN\mac\LoRaMacCrypto.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 138</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 268</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\LoRaWAN\system\i2c.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 134</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 264</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\LoRaWAN\system\timer.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 121</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 271</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\LoRaWAN\utils\utilities.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 165</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 255</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\Debug\Exe\AT_CMD.out</name>
+            <outputs>
+                <tool>
+                    <name>OBJCOPY</name>
+                    <file> 245</file>
+                </tool>
+            </outputs>
+        </file>
+    </configuration>
+    <configuration>
+        <name>Release</name>
+        <outputs>
+            <file>$PROJ_DIR$\Release\Obj\cust_api_isr.pbi</file>
+            <file>$PROJ_DIR$\..\src\app\common\rak_api.c</file>
+            <file>$PROJ_DIR$\..\..\..\bsp_atheros_wifi\src\atheros_wifi\custom_src\stack_custom\cust_api_stack_offload.c</file>
+            <file>$PROJ_DIR$\Release\Obj\api_init.pbi</file>
+            <file>$PROJ_DIR$\Release\Obj\driver_init.pbi</file>
+            <file>$PROJ_DIR$\Release\Exe\UART.out</file>
+            <file>$PROJ_DIR$\Release\Obj\cust_api_wmi_rx.o</file>
+            <file>$PROJ_DIR$\Release\Obj\wmiconfig_custom.pbi</file>
+            <file>$PROJ_DIR$\Release\Obj\utils.o</file>
+            <file>$PROJ_DIR$\..\..\..\bsp_atheros_wifi\src\atheros_wifi\common_src\driver\driver_diag.c</file>
+            <file>$PROJ_DIR$\Release\Obj\api_wmi_rx.o</file>
+            <file>$PROJ_DIR$\..\..\..\bsp_atheros_wifi\src\atheros_wifi\common_src\api_interface\api_init.c</file>
+            <file>$PROJ_DIR$\..\..\..\bsp_atheros_wifi\src\atheros_wifi\custom_src\api_interface\cust_api_ioctl.c</file>
+            <file>$PROJ_DIR$\Release\Obj\ucos_iii.pbi</file>
+            <file>$PROJ_DIR$\..\..\..\bsp_atheros_wifi\src\atheros_wifi\common_src\hw_interface\hw_api.c</file>
+            <file>$PROJ_DIR$\Release\Obj\iarwrite.pbi</file>
+            <file>$PROJ_DIR$\..\..\..\bsp_atheros_wifi\src\atheros_wifi\custom_src\api_interface\cust_api_wmi_rx.c</file>
+            <file>$PROJ_DIR$\Release\Obj\base-64.pbi</file>
+            <file>$PROJ_DIR$\Release\Obj\wmi.o</file>
+            <file>$PROJ_DIR$\..\..\..\bsp_atheros_wifi\src\atheros_wifi\common_src\stack_common\api_stack_offload.c</file>
+            <file>$PROJ_DIR$\Release\Obj\wmiconfig_custom.o</file>
+            <file>$PROJ_DIR$\..\..\..\bsp_atheros_wifi\src\atheros_wifi\custom_src\driver\cust_driver_netbuf.c</file>
+            <file>$PROJ_DIR$\..\src\app\custom\web_server.c</file>
+            <file>$PROJ_DIR$\..\..\..\bsp_atheros_wifi\src\atheros_wifi\custom_src\driver\cust_driver_main.c</file>
+            <file>$PROJ_DIR$\Release\Obj\cust_api_ioctl.o</file>
+            <file>$PROJ_DIR$\Release\Obj\api_ioctl.pbi</file>
+            <file>$PROJ_DIR$\Release\Obj\startup_nano1xx.o</file>
+            <file>$PROJ_DIR$\Release\Obj\os_dbg.o</file>
+            <file>$PROJ_DIR$\Release\Obj\lib_mem.pbi</file>
+            <file>$PROJ_DIR$\Release\Obj\cpu_core.pbi</file>
+            <file>$PROJ_DIR$\..\..\..\bsp_atheros_wifi\src\atheros_wifi\custom_src\hw_interface\cust_hw_api.c</file>
+            <file>$PROJ_DIR$\Release\Obj\atheros_wifi_mediactl_ext.pbi</file>
+            <file>$PROJ_DIR$\..\..\..\bsp_atheros_wifi\src\atheros_wifi\custom_src\stack_custom\cust_api_stack_txrx.c</file>
+            <file>$PROJ_DIR$\Release\Obj\nano1xx_sys.o</file>
+            <file>$PROJ_DIR$\Release\Obj\cpu_core.o</file>
+            <file>$PROJ_DIR$\Release\Obj\api_ioctl.o</file>
+            <file>$PROJ_DIR$\Release\Obj\iarwrite.o</file>
+            <file>$PROJ_DIR$\..\..\..\bsp_atheros_wifi\src\atheros_wifi\common_src\driver\driver_init.c</file>
+            <file>$PROJ_DIR$\Release\Obj\udpd.pbi</file>
+            <file>$PROJ_DIR$\Release\Obj\driver_main.pbi</file>
+            <file>$PROJ_DIR$\Release\Obj\api_stack_offload.pbi</file>
+            <file>$PROJ_DIR$\..\src\bsp\bsp.c</file>
+            <file>$PROJ_DIR$\Release\Obj\os_app_hooks.pbi</file>
+            <file>$PROJ_DIR$\Release\Obj\udpd.o</file>
+            <file>$PROJ_DIR$\Release\Obj\hw_api.pbi</file>
+            <file>$PROJ_DIR$\Release\Obj\driver_init.o</file>
+            <file>$PROJ_DIR$\..\..\..\bsp_atheros_wifi\src\atheros_wifi\common_src\api_interface\api_wmi_rx.c</file>
+            <file>$PROJ_DIR$\Release\Obj\driver_netbuf.pbi</file>
+            <file>$PROJ_DIR$\..\src\app\custom\utils.c</file>
+            <file>$PROJ_DIR$\Release\Obj\api_init.o</file>
+            <file>$PROJ_DIR$\..\..\..\uC-CPU\cpu_core.c</file>
+            <file>$PROJ_DIR$\Release\Obj\cpu_c.pbi</file>
+            <file>$PROJ_DIR$\..\..\..\bsp_atheros_wifi\src\atheros_wifi\common_src\htc\htc.c</file>
+            <file>$PROJ_DIR$\Release\Obj\dnsc.pbi</file>
+            <file>$PROJ_DIR$\..\..\..\bsp_atheros_wifi\src\atheros_wifi\common_src\bmi\bmi.c</file>
+            <file>$PROJ_DIR$\Release\Obj\crc.o</file>
+            <file>$PROJ_DIR$\Release\Obj\storerecall.pbi</file>
+            <file>$PROJ_DIR$\..\..\..\bsp_atheros_wifi\src\atheros_wifi\common_src\driver\driver_main.c</file>
+            <file>$PROJ_DIR$\Release\Obj\os_cpu_a.o</file>
+            <file>$PROJ_DIR$\Release\Obj\cust_api_init.o</file>
+            <file>$PROJ_DIR$\Release\Obj\nano1xx_gpio.o</file>
+            <file>$PROJ_DIR$\Release\Obj\wmi.pbi</file>
+            <file>$PROJ_DIR$\..\..\..\bsp_atheros_wifi\src\atheros_wifi\common_src\hcd\spi_hcd.c</file>
+            <file>$PROJ_DIR$\Release\Obj\cust_api_txrx.o</file>
+            <file>$PROJ_DIR$\Release\Obj\cust_api_stack_offload.o</file>
+            <file>$PROJ_DIR$\Release\Obj\dnsc.o</file>
+            <file>$PROJ_DIR$\Release\Obj\web_server.pbi</file>
+            <file>$PROJ_DIR$\Release\Obj\cust_driver_main.o</file>
+            <file>$PROJ_DIR$\Release\Obj\nano1xx_uart.o</file>
+            <file>$PROJ_DIR$\Release\Obj\rcv_aggr.pbi</file>
+            <file>$PROJ_DIR$\Release\Obj\util.pbi</file>
+            <file>$PROJ_DIR$\Release\Obj\ota_api.o</file>
+            <file>$PROJ_DIR$\..\..\..\uC-LIB\lib_mem.c</file>
+            <file>$PROJ_DIR$\..\src\bsp\iarread.c</file>
+            <file>$PROJ_DIR$\Release\Obj\web_server.o</file>
+            <file>$PROJ_DIR$\Release\Obj\cust_hw_api.o</file>
+            <file>$PROJ_DIR$\Release\Obj\app_task_one.pbi</file>
+            <file>$PROJ_DIR$\Release\Obj\cust_api_ioctl.pbi</file>
+            <file>$PROJ_DIR$\Release\Obj\driver_txrx.pbi</file>
+            <file>$PROJ_DIR$\..\..\..\bsp_atheros_wifi\src\atheros_wifi\common_src\util\util.c</file>
+            <file>$PROJ_DIR$\Release\Obj\system_nano1xx.o</file>
+            <file>$PROJ_DIR$\..\..\..\bsp_atheros_wifi\src\atheros_wifi\common_src\storerecall\storerecall.c</file>
+            <file>$PROJ_DIR$\Release\Obj\app.o</file>
+            <file>$PROJ_DIR$\Release\Obj\nano1xx_gpio.pbi</file>
+            <file>$PROJ_DIR$\Release\Obj\atheros_wifi_mediactl_ext.o</file>
+            <file>$PROJ_DIR$\Release\Obj\rak_api.o</file>
+            <file>$PROJ_DIR$\Release\Exe\AT_CMD.bin</file>
+            <file>$PROJ_DIR$\Release\Obj\ucos_iii.o</file>
+            <file>$PROJ_DIR$\Release\Obj\nano1xx_spi.pbi</file>
+            <file>$PROJ_DIR$\..\src\ota\crc.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Nuvoton\NANO100B_Series_CMSIS_BSP_EN_Rev1.00.005\Libraries\NANO1xx_Drivers\Source\nano1xx_fmc.c</file>
+            <file>$PROJ_DIR$\..\..\..\uCOS-III\Ports\ARM-Cortex-M0\Generic\IAR\os_dbg.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Nuvoton\NANO100B_Series_CMSIS_BSP_EN_Rev1.00.005\Libraries\NANO1xx_Drivers\Source\nano1xx_adc.c</file>
+            <file>$PROJ_DIR$\Release\Obj\rak_api.pbi</file>
+            <file>$PROJ_DIR$\Release\Obj\cust_api_stack_offload.pbi</file>
+            <file>$PROJ_DIR$\..\..\..\bsp_atheros_wifi\src\atheros_wifi\custom_src\api_interface\cust_api_isr.c</file>
+            <file>$PROJ_DIR$\Release\Obj\base-64.o</file>
+            <file>$PROJ_DIR$\Release\Obj\bmi.pbi</file>
+            <file>$PROJ_DIR$\Release\Obj\nano1xx_timer.pbi</file>
+            <file>$PROJ_DIR$\..\..\..\bsp_atheros_wifi\src\atheros_wifi\common_src\driver\driver_netbuf.c</file>
+            <file>$PROJ_DIR$\Release\Obj\cust_api_init.pbi</file>
+            <file>$PROJ_DIR$\Release\Obj\cust_driver_netbuf.o</file>
+            <file>$PROJ_DIR$\Release\Obj\api_wmi_rx.pbi</file>
+            <file>$PROJ_DIR$\..\src\app\custom\system_nano1xx.c</file>
+            <file>$PROJ_DIR$\Release\Obj\system_nano1xx.pbi</file>
+            <file>$PROJ_DIR$\Release\Obj\cust_driver_netbuf.pbi</file>
+            <file>$PROJ_DIR$\Release\Obj\ota_api.pbi</file>
+            <file>$PROJ_DIR$\Release\Obj\cust_api_stack_txrx.pbi</file>
+            <file>$PROJ_DIR$\Release\Obj\cust_api_wmi_rx.pbi</file>
+            <file>$PROJ_DIR$\Release\Obj\nano1xx_uart.pbi</file>
+            <file>$PROJ_DIR$\..\..\..\bsp_atheros_wifi\src\atheros_wifi\common_src\api_interface\api_ioctl.c</file>
+            <file>$PROJ_DIR$\Release\Obj\crc.pbi</file>
+            <file>$PROJ_DIR$\..\..\..\uC-CPU\ARM-Cortex-M0\IAR\cpu_a.asm</file>
+            <file>$PROJ_DIR$\..\src\bsp\iarwrite.c</file>
+            <file>$PROJ_DIR$\..\..\..\bsp_atheros_wifi\src\atheros_wifi\common_src\api_interface\api_txrx.c</file>
+            <file>$PROJ_DIR$\Release\Obj\iarread.pbi</file>
+            <file>$PROJ_DIR$\Release\Obj\bsp.pbi</file>
+            <file>$PROJ_DIR$\..\..\..\uC-CPU\ARM-Cortex-M0\IAR\cpu_c.c</file>
+            <file>$PROJ_DIR$\Release\Obj\hw_api.o</file>
+            <file>$PROJ_DIR$\Release\Obj\os_dbg.pbi</file>
+            <file>$PROJ_DIR$\Release\Obj\cust_api_isr.o</file>
+            <file>$PROJ_DIR$\Release\Obj\storerecall.o</file>
+            <file>$PROJ_DIR$\Release\Obj\nano1xx_fmc.o</file>
+            <file>$PROJ_DIR$\..\src\app\custom\dnsc.c</file>
+            <file>$PROJ_DIR$\Release\Obj\cust_api_txrx.pbi</file>
+            <file>$PROJ_DIR$\Release\Obj\nano1xx_pdma.pbi</file>
+            <file>$PROJ_DIR$\Release\Obj\cpu_c.o</file>
+            <file>$PROJ_DIR$\..\..\..\uCOS-III\Source\ucos_iii.c</file>
+            <file>$PROJ_DIR$\..\src\ota\ota_api.c</file>
+            <file>$PROJ_DIR$\Release\Obj\spi_flash.pbi</file>
+            <file>$PROJ_DIR$\..\src\app\custom\os_app_hooks.c</file>
+            <file>$PROJ_DIR$\..\..\..\bsp_atheros_wifi\src\atheros_wifi\custom_src\api_interface\cust_api_txrx.c</file>
+            <file>$PROJ_DIR$\Release\Obj\driver_netbuf.o</file>
+            <file>$PROJ_DIR$\Release\Obj\htc.o</file>
+            <file>$PROJ_DIR$\Release\Obj\cust_hw_api.pbi</file>
+            <file>$PROJ_DIR$\Release\Obj\nano1xx_sys.pbi</file>
+            <file>$PROJ_DIR$\..\src\app\custom\app_task_one.c</file>
+            <file>$PROJ_DIR$\Release\Obj\util.o</file>
+            <file>$PROJ_DIR$\Release\Obj\driver_main.o</file>
+            <file>$PROJ_DIR$\Release\Obj\os_cpu_c.o</file>
+            <file>$PROJ_DIR$\Release\Obj\nano1xx_adc.o</file>
+            <file>$PROJ_DIR$\Release\Obj\bmi.o</file>
+            <file>$PROJ_DIR$\Release\Obj\nano1xx_fmc.pbi</file>
+            <file>$PROJ_DIR$\..\..\..\bsp_atheros_wifi\src\atheros_wifi\common_src\driver\driver_txrx.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Nuvoton\NANO100B_Series_CMSIS_BSP_EN_Rev1.00.005\Libraries\NANO1xx_Drivers\Source\nano1xx_timer.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Nuvoton\NANO100B_Series_CMSIS_BSP_EN_Rev1.00.005\Libraries\NANO1xx_Drivers\Source\nano1xx_gpio.c</file>
+            <file>$PROJ_DIR$\..\src\app\driver_plugin\atheros_wifi_mediactl_ext.c</file>
+            <file>$PROJ_DIR$\Release\Obj\nano1xx_timer.o</file>
+            <file>$PROJ_DIR$\Release\Obj\driver_txrx.o</file>
+            <file>$PROJ_DIR$\Release\Obj\iarread.o</file>
+            <file>$PROJ_DIR$\Release\Obj\api_txrx.pbi</file>
+            <file>$PROJ_DIR$\..\..\..\bsp_atheros_wifi\src\atheros_wifi\custom_src\api_interface\cust_api_init.c</file>
+            <file>$PROJ_DIR$\Release\Obj\app.pbi</file>
+            <file>$PROJ_DIR$\Release\Obj\htc.pbi</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Nuvoton\NANO100B_Series_CMSIS_BSP_EN_Rev1.00.005\Libraries\NANO1xx_Drivers\Source\nano1xx_pdma.c</file>
+            <file>$PROJ_DIR$\..\..\..\bsp_atheros_wifi\src\atheros_wifi\common_src\wmi\wmi.c</file>
+            <file>$PROJ_DIR$\Release\Obj\cpu_a.o</file>
+            <file>$PROJ_DIR$\Release\Obj\rcv_aggr.o</file>
+            <file>$PROJ_DIR$\Release\Obj\spi_hcd.o</file>
+            <file>$PROJ_DIR$\Release\Obj\utils.pbi</file>
+            <file>$PROJ_DIR$\Release\Obj\bsp.o</file>
+            <file>$PROJ_DIR$\Release\Obj\lib_mem.o</file>
+            <file>$PROJ_DIR$\Release\Obj\nano1xx_spi.o</file>
+            <file>$PROJ_DIR$\Release\Obj\app_task_one.o</file>
+            <file>$PROJ_DIR$\..\src\ota\spi_flash.c</file>
+            <file>$PROJ_DIR$\Release\Obj\nano1xx_pdma.o</file>
+            <file>$PROJ_DIR$\Release\Obj\os_cpu_c.pbi</file>
+            <file>$PROJ_DIR$\..\src\app\custom\app.c</file>
+            <file>$PROJ_DIR$\Release\Obj\spi_hcd.pbi</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Nuvoton\NANO100B_Series_CMSIS_BSP_EN_Rev1.00.005\Libraries\NANO1xx_Drivers\Source\nano1xx_spi.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Nuvoton\NANO100B_Series_CMSIS_BSP_EN_Rev1.00.005\Libraries\NANO1xx_Drivers\Source\nano1xx_sys.c</file>
+            <file>$PROJ_DIR$\..\..\..\uCOS-III\Ports\ARM-Cortex-M0\Generic\IAR\os_cpu_a.asm</file>
+            <file>$PROJ_DIR$\Release\Obj\os_app_hooks.o</file>
+            <file>$PROJ_DIR$\..\src\app\custom\wmiconfig_custom.c</file>
+            <file>$PROJ_DIR$\Release\Obj\cust_driver_main.pbi</file>
+            <file>$PROJ_DIR$\..\src\app\custom\base-64.c</file>
+            <file>$PROJ_DIR$\..\src\app\custom\udpd.c</file>
+            <file>$PROJ_DIR$\Release\Obj\cust_api_stack_txrx.o</file>
+            <file>$PROJ_DIR$\Release\Obj\driver_diag.pbi</file>
+            <file>$PROJ_DIR$\..\..\..\bsp_atheros_wifi\src\atheros_wifi\common_src\reorder\rcv_aggr.c</file>
+            <file>$PROJ_DIR$\Release\Obj\spi_flash.o</file>
+            <file>$PROJ_DIR$\Release\Obj\api_stack_offload.o</file>
+            <file>$PROJ_DIR$\Release\Obj\api_txrx.o</file>
+            <file>$PROJ_DIR$\Release\Obj\nano1xx_adc.pbi</file>
+            <file>$PROJ_DIR$\Release\Obj\driver_diag.o</file>
+            <file>$PROJ_DIR$\..\src\startup\iar\startup_nano1xx.s</file>
+            <file>$PROJ_DIR$\..\..\..\uCOS-III\Ports\ARM-Cortex-M0\Generic\IAR\os_cpu_c.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Nuvoton\NANO100B_Series_CMSIS_BSP_EN_Rev1.00.005\Libraries\NANO1xx_Drivers\Source\nano1xx_uart.c</file>
+        </outputs>
+        <file>
+            <name>[ROOT_NODE]</name>
+            <outputs>
+                <tool>
+                    <name>ILINK</name>
+                    <file> 5</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\src\app\common\rak_api.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 85</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 93</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\bsp_atheros_wifi\src\atheros_wifi\custom_src\stack_custom\cust_api_stack_offload.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 64</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 94</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\Release\Exe\UART.out</name>
+            <outputs>
+                <tool>
+                    <name>OBJCOPY</name>
+                    <file> 86</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\bsp_atheros_wifi\src\atheros_wifi\common_src\driver\driver_diag.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 184</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 178</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\bsp_atheros_wifi\src\atheros_wifi\common_src\api_interface\api_init.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 49</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 3</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\bsp_atheros_wifi\src\atheros_wifi\custom_src\api_interface\cust_api_ioctl.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 24</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 77</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\bsp_atheros_wifi\src\atheros_wifi\common_src\hw_interface\hw_api.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 118</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 44</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\bsp_atheros_wifi\src\atheros_wifi\custom_src\api_interface\cust_api_wmi_rx.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 6</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 108</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\bsp_atheros_wifi\src\atheros_wifi\common_src\stack_common\api_stack_offload.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 181</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 40</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\bsp_atheros_wifi\src\atheros_wifi\custom_src\driver\cust_driver_netbuf.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 101</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 105</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\src\app\custom\web_server.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 74</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 66</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\bsp_atheros_wifi\src\atheros_wifi\custom_src\driver\cust_driver_main.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 67</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 174</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\bsp_atheros_wifi\src\atheros_wifi\custom_src\hw_interface\cust_hw_api.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 75</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 134</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\bsp_atheros_wifi\src\atheros_wifi\custom_src\stack_custom\cust_api_stack_txrx.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 177</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 107</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\bsp_atheros_wifi\src\atheros_wifi\common_src\driver\driver_init.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 45</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 4</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\src\bsp\bsp.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 160</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 116</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\bsp_atheros_wifi\src\atheros_wifi\common_src\api_interface\api_wmi_rx.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 10</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 102</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\src\app\custom\utils.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 8</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 159</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\uC-CPU\cpu_core.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 34</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 29</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\bsp_atheros_wifi\src\atheros_wifi\common_src\htc\htc.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 133</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 153</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\bsp_atheros_wifi\src\atheros_wifi\common_src\bmi\bmi.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 141</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 97</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\bsp_atheros_wifi\src\atheros_wifi\common_src\driver\driver_main.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 138</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 39</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\bsp_atheros_wifi\src\atheros_wifi\common_src\hcd\spi_hcd.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 158</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 168</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\uC-LIB\lib_mem.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 161</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 28</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\src\bsp\iarread.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 149</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 115</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\bsp_atheros_wifi\src\atheros_wifi\common_src\util\util.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 137</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 70</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\bsp_atheros_wifi\src\atheros_wifi\common_src\storerecall\storerecall.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 121</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 56</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\src\ota\crc.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 55</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 111</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\Nuvoton\NANO100B_Series_CMSIS_BSP_EN_Rev1.00.005\Libraries\NANO1xx_Drivers\Source\nano1xx_fmc.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 122</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 142</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\uCOS-III\Ports\ARM-Cortex-M0\Generic\IAR\os_dbg.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 27</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 119</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\Nuvoton\NANO100B_Series_CMSIS_BSP_EN_Rev1.00.005\Libraries\NANO1xx_Drivers\Source\nano1xx_adc.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 140</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 183</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\bsp_atheros_wifi\src\atheros_wifi\custom_src\api_interface\cust_api_isr.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 120</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 0</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\bsp_atheros_wifi\src\atheros_wifi\common_src\driver\driver_netbuf.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 132</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 47</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\src\app\custom\system_nano1xx.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 80</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 104</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\bsp_atheros_wifi\src\atheros_wifi\common_src\api_interface\api_ioctl.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 35</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 25</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\uC-CPU\ARM-Cortex-M0\IAR\cpu_a.asm</name>
+            <outputs>
+                <tool>
+                    <name>AARM</name>
+                    <file> 156</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\src\bsp\iarwrite.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 36</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 15</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\bsp_atheros_wifi\src\atheros_wifi\common_src\api_interface\api_txrx.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 182</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 150</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\uC-CPU\ARM-Cortex-M0\IAR\cpu_c.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 126</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 51</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\src\app\custom\dnsc.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 65</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 53</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\uCOS-III\Source\ucos_iii.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 87</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 13</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\src\ota\ota_api.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 71</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 106</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\src\app\custom\os_app_hooks.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 172</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 42</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\bsp_atheros_wifi\src\atheros_wifi\custom_src\api_interface\cust_api_txrx.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 63</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 124</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\src\app\custom\app_task_one.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 163</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 76</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\bsp_atheros_wifi\src\atheros_wifi\common_src\driver\driver_txrx.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 148</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 78</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\Nuvoton\NANO100B_Series_CMSIS_BSP_EN_Rev1.00.005\Libraries\NANO1xx_Drivers\Source\nano1xx_timer.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 147</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 98</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\Nuvoton\NANO100B_Series_CMSIS_BSP_EN_Rev1.00.005\Libraries\NANO1xx_Drivers\Source\nano1xx_gpio.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 60</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 83</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\src\app\driver_plugin\atheros_wifi_mediactl_ext.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 84</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 31</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\bsp_atheros_wifi\src\atheros_wifi\custom_src\api_interface\cust_api_init.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 59</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 100</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\Nuvoton\NANO100B_Series_CMSIS_BSP_EN_Rev1.00.005\Libraries\NANO1xx_Drivers\Source\nano1xx_pdma.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 165</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 125</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\bsp_atheros_wifi\src\atheros_wifi\common_src\wmi\wmi.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 18</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 61</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\src\ota\spi_flash.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 180</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 129</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\src\app\custom\app.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 82</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 152</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\Nuvoton\NANO100B_Series_CMSIS_BSP_EN_Rev1.00.005\Libraries\NANO1xx_Drivers\Source\nano1xx_spi.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 162</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 88</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\Nuvoton\NANO100B_Series_CMSIS_BSP_EN_Rev1.00.005\Libraries\NANO1xx_Drivers\Source\nano1xx_sys.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 33</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 135</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\uCOS-III\Ports\ARM-Cortex-M0\Generic\IAR\os_cpu_a.asm</name>
+            <outputs>
+                <tool>
+                    <name>AARM</name>
+                    <file> 58</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\src\app\custom\wmiconfig_custom.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 20</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 7</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\src\app\custom\base-64.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 96</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 17</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\src\app\custom\udpd.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 43</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 38</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\bsp_atheros_wifi\src\atheros_wifi\common_src\reorder\rcv_aggr.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 157</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 69</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\src\startup\iar\startup_nano1xx.s</name>
+            <outputs>
+                <tool>
+                    <name>AARM</name>
+                    <file> 26</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\uCOS-III\Ports\ARM-Cortex-M0\Generic\IAR\os_cpu_c.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 139</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 166</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\Nuvoton\NANO100B_Series_CMSIS_BSP_EN_Rev1.00.005\Libraries\NANO1xx_Drivers\Source\nano1xx_uart.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 68</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 109</file>
+                </tool>
+            </outputs>
+        </file>
+        <forcedrebuild>
+            <name>[MULTI_TOOL]</name>
+            <tool>ILINK</tool>
+        </forcedrebuild>
+        <forcedrebuild>
+            <name>[REBUILD_ALL]</name>
+        </forcedrebuild>
+    </configuration>
+</project>
