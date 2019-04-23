@@ -334,9 +334,9 @@ D:\github_LoRa\LoRaNode_Water_Level\LoRaWAN\mac\region
 -DUSE_DEBUGGER=1
 -DSX1276_CHIP=1
 -D_USE_NO_TIMER=1
--DREGION_US915=1
+-D_REGION_US915=1
 -D_REGION_AS923=1
--D_REGION_EU868=1
+-DREGION_EU868=1
 -D_USE_BOOTLOADER=1
 -D_DLIB_CONFIG_FILE_HEADER_NAME="C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.1\\arm\\inc\\c\\DLib_Config_Full.h"
 -D_DLIB_CONFIG_FILE_STRING="C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.1\\arm\\inc\\c\\DLib_Config_Full.h"
