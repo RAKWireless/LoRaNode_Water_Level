@@ -932,10 +932,12 @@ uint8_t rw_GetTxDataRate(void)
 
 int rw_ResetLoRaWAN(void)
 {
+  GPIOIRQ_Disable();
   rw_DeInitLoRaWAN();
   rw_InitLoRaWAN();
   rw_ReadUsrConfig();
-  rw_LoadUsrConfig();     
+  rw_LoadUsrConfig(); 
+  GPIOIRQ_Enable();
   return 0;
 }
 

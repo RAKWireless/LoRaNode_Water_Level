@@ -1699,7 +1699,7 @@
                 </option>
                 <option>
                     <name>OOCOutputFile</name>
-                    <state>Waterlevel.bin</state>
+                    <state>RAK811_Waterlevel.bin</state>
                 </option>
                 <option>
                     <name>OOCCommandLineProducer</name>
@@ -1814,7 +1814,7 @@
                 </option>
                 <option>
                     <name>IlinkIcfOverride</name>
-                    <state>1</state>
+                    <state>0</state>
                 </option>
                 <option>
                     <name>IlinkIcfFile</name>

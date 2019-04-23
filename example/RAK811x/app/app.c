@@ -120,7 +120,7 @@ void WaterLevel_app_loop(void)
         appSend_TS = TimerGetCurrentTime();
 
         appData[0] = 0x01;
-        appData[1] = 0x03; 
+        appData[1] = 0x02; 
         appData[2] = ((uint32_t)(waterLevelm*100) >> 8) & 0xFF;
         appData[3] = (uint32_t)(waterLevelm*100) & 0xFF; 
         
@@ -168,6 +168,8 @@ int main( void )
     rw_InitLoRaWAN();
     
     rw_LoadUsrConfig(); 
+    
+    GPIOIRQ_Enable();
     
     
      //calibration

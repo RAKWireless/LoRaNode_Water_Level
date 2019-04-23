@@ -1359,6 +1359,28 @@ static void lora_abp_info(int argc, char *argv[])
   
 }
 
+void GPIOIRQ_Enable(void)
+{
+	HAL_NVIC_EnableIRQ( EXTI0_IRQn );
+	HAL_NVIC_EnableIRQ( EXTI1_IRQn );
+	HAL_NVIC_EnableIRQ( EXTI2_IRQn );
+	HAL_NVIC_EnableIRQ( EXTI3_IRQn );
+	HAL_NVIC_EnableIRQ( EXTI4_IRQn );
+	HAL_NVIC_EnableIRQ( EXTI9_5_IRQn );
+	HAL_NVIC_EnableIRQ( EXTI15_10_IRQn );
+}
+
+void GPIOIRQ_Disable(void)
+{
+	HAL_NVIC_DisableIRQ( EXTI0_IRQn );
+	HAL_NVIC_DisableIRQ( EXTI1_IRQn );
+	HAL_NVIC_DisableIRQ( EXTI2_IRQn );
+	HAL_NVIC_DisableIRQ( EXTI3_IRQn );
+	HAL_NVIC_DisableIRQ( EXTI4_IRQn );
+	HAL_NVIC_DisableIRQ( EXTI9_5_IRQn );
+	HAL_NVIC_DisableIRQ( EXTI15_10_IRQn );
+}
+
 static void lora_sleep(int argc, char *argv[])
 {
    
@@ -1375,6 +1397,8 @@ static void lora_sleep(int argc, char *argv[])
         BoardDeInitMcu();
         SysEnterUltraPowerStopMode();
         BoardInitMcu();
+        
+        GPIOIRQ_Enable();
         
         __HAL_RCC_LSE_CONFIG(RCC_LSE_ON);
         

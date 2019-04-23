@@ -16,7 +16,7 @@
 #define CUSTOM_VER         0
 #define FUN_VER            2
 #define BUG_VER            4
-#define TEST_VER           5  //1: GPS U6 U6A 3£ºAU915 remove ACMA
+#define TEST_VER           6  //1: GPS U6 U6A 3£ºAU915 remove ACMA
                               //4: alan water demo
 
 #if defined( REGION_EU868 )

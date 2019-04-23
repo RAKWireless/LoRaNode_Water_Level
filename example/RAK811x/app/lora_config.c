@@ -1224,7 +1224,12 @@ static int handle_lorawan_class(lora_config_t *config, int argc, char *argv[], c
         
         config->loraWan_class = atoi(argv[0]);
         if (config->loraWan_class <= CLASS_C) {
-           ret = RAK_OK;
+					g_lora_config.loraWan_class = config->loraWan_class;
+					write_partition(PARTITION_0, (char *)&g_lora_config, sizeof(g_lora_config));
+					GPIOIRQ_Disable();
+					rw_InitLoRaWAN();
+					ret = RAK_OK;
+					GPIOIRQ_Enable();
         }
     }
 END:
